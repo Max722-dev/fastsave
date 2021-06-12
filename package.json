@@ -8,9 +8,7 @@
   },
   "author": "Max Jackson",
   "license": "MIT",
-  "dependencies": {
-    "JSON": "^1.0.0"
-  },
+  "dependencies": {},
   "devDependencies": {},
   "repository": {
     "type": "git",
