@@ -1,4 +1,5 @@
 const database = require("./DB/database.json")
+const fs = require("fs")
 
 module.exports.set = async (Key, Value) => {
     try {
@@ -108,4 +109,5 @@ module.exports.Delete = async (Key) => {
     }
 }
 
-module.exports.math = Math
+module.exports.systemMath = Math
+module.exports.fs = this.fs
