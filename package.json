@@ -1,0 +1,15 @@
+{
+  "name": "fastsave",
+  "version": "1.0.0",
+  "description": "FastSave Saves Keys Into a DataBase in FastSave DataBases",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo nil && exit"
+  },
+  "author": "Max Jackson",
+  "license": "MIT",
+  "dependencies": {
+    "JSON": "^1.0.0",
+    "fs": "0.0.1-security"
+  }
+}
