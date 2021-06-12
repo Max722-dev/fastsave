@@ -9,8 +9,7 @@
   "author": "Max Jackson",
   "license": "MIT",
   "dependencies": {
-    "JSON": "^1.0.0",
-    "fs": "0.0.1-security"
+    "JSON": "^1.0.0"
   },
   "devDependencies": {},
   "repository": {
