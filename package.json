@@ -11,5 +11,19 @@
   "dependencies": {
     "JSON": "^1.0.0",
     "fs": "0.0.1-security"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Max722-dev/fastsave.git"
+  },
+  "keywords": [
+    "saving",
+    "database",
+    "db"
+  ],
+  "bugs": {
+    "url": "https://github.com/Max722-dev/fastsave/issues"
+  },
+  "homepage": "https://github.com/Max722-dev/fastsave#readme"
 }
