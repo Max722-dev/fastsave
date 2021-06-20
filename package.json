@@ -1,6 +1,6 @@
 {
   "name": "fastsave",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "FastSave Saves Keys Into a DataBase in FastSave DataBases",
   "main": "index.js",
   "scripts": {
@@ -8,9 +8,7 @@
   },
   "author": "Max Jackson",
   "license": "MIT",
-  "dependencies": {
-    "fs": "0.0.1-security"
-  },
+  "dependencies": {},
   "devDependencies": {},
   "repository": {
     "type": "git",

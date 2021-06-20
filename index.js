@@ -1,6 +1,6 @@
 const database = require("./DB/database.json")
 
-async class Objects {
+class Objects {
     constructor(Options = { Static: { Name: String, Value: Number } }) {
         this.Options = Options
 
@@ -18,7 +18,7 @@ async class Objects {
     * Value: Changes the value of the static
     */
 
-    ChangeStaticValue = (Name = String, Value = Number) => {
+    ChangeStaticValue = async (Name = String, Value = Number) => {
         if (this.Options.Static.Name === Name) {
             if (Value === String) {
                 throw new Error("Cannot set the static value a string")
@@ -45,7 +45,7 @@ async class Objects {
     * Function: Runs the Function like a simple function
     */
 
-    RunStatic = (Name = String, StaticFunction = Function) => {
+    RunStatic = async (Name = String, StaticFunction = Function) => {
         try {
             if (this.Options.Static.Name === Name) {
                 console.log("Running Static Function with name of: " + Name)
@@ -60,7 +60,7 @@ async class Objects {
     }
 }
 
-async class SimpleSaving {
+class SimpleSaving {
     constructor() {}
 
     /**
@@ -68,7 +68,7 @@ async class SimpleSaving {
     * Value: adds a value to the key if the key does not have any value
     */
 
-    Save = (Key, Value) => {
+    Save = async (Key = String, Value = String) => {
         try {
             if (!database[Key]) {
                 database[Key] = {
@@ -89,7 +89,7 @@ async class SimpleSaving {
     * if the key is not listed in the dataBase it will send a message in the console saying ```Error: cannot find test```
     */
 
-    find = (Key) => {
+    find = async (Key = String) => {
         try {
             if (database[Key]) {
                 return database[Key]
@@ -106,7 +106,7 @@ async class SimpleSaving {
     * Value: adds a Value if there is a key not found or found
     */
 
-    fetch = (Key, Value) => {
+    fetch = async (Key = String, Value = String) => {
         try {
             const KeyName = await database[Key]
             if (!KeyName) {
