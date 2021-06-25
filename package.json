@@ -1,26 +1,62 @@
 {
-  "name": "fastsave",
-  "version": "1.0.3",
-  "description": "FastSave Saves Keys Into a DataBase in FastSave DataBases",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo nil && exit"
+  "_args": [
+    [
+      "fastsave@7.1.3",
+      "C:\\Users\\mxsen\\Desktop\\Lyrics-Bot"
+    ]
+  ],
+  "_from": "fastsave@7.1.3",
+  "_id": "fastsave@7.1.3",
+  "_inBundle": false,
+  "_integrity": "sha512-0S1fVb9OAZGhkI4ZIc5Oe4yWMwhz20xSsziwd6+yGWKKMsPt+XOfj/gD5CesGxd2WdqBkZFBiP8ZqWDu55HLHA==",
+  "_location": "/fastsave",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "fastsave@7.1.3",
+    "name": "fastsave",
+    "escapedName": "fastsave",
+    "rawSpec": "7.1.3",
+    "saveSpec": null,
+    "fetchSpec": "7.1.3"
   },
-  "author": "Max Jackson",
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/fastsave/-/fastsave-7.1.3.tgz",
+  "_spec": "7.1.3",
+  "_where": "C:\\Users\\mxsen\\Desktop\\Lyrics-Bot",
+  "author": {
+    "name": "TrueXPixels"
+  },
+  "bugs": {
+    "url": "https://github.com/Max722-dev/fastsaveissues"
+  },
+  "dependencies": {
+    "better-sqlite3": "^7.1.1",
+    "lodash": "^4.17.20"
+  },
+  "description": "An easy, non-locking, persistent better-sqlite3 wrapper designed to be easy to setup & utilize",
+  "keywords": [
+    "database",
+    "storing",
+    "values",
+    "easy",
+    "quick",
+    "sqlite",
+    "sqlite3",
+    "db"
+  ],
   "license": "MIT",
-  "dependencies": {},
-  "devDependencies": {},
+  "main": "index.js",
+  "name": "fastsave",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Max722-dev/fastsave.git"
   },
-  "keywords": [
-    "saving",
-    "database",
-    "db"
-  ],
-  "bugs": {
-    "url": "https://github.com/Max722-dev/fastsave/issues"
+  "scripts": {
+    "test": "node spec/test.js"
   },
-  "homepage": "https://github.com/Max722-dev/fastsave#readme"
+  "version": "7.1.3"
 }
